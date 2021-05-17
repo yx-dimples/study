@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="865ed4a2-4160-4e19-a58a-3ea1c1503253" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ljljcwJSc4WJFpVFF9a4zjSpuo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xmbk\zy\image" />
+      <recent name="E:\xmbk\css" />
+      <recent name="E:\xmbk" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xmbk\mp" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="865ed4a2-4160-4e19-a58a-3ea1c1503253" name="默认更改列表" comment="" />
+      <created>1608118518081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608118518081</updated>
+      <workItem from="1608118521701" duration="307000" />
+      <workItem from="1608119105867" duration="828000" />
+      <workItem from="1608196852580" duration="9644000" />
+      <workItem from="1608347366510" duration="962000" />
+      <workItem from="1608363659407" duration="5140000" />
+      <workItem from="1608445400540" duration="21000" />
+      <workItem from="1608447965791" duration="200000" />
+      <workItem from="1608624790319" duration="398000" />
+      <workItem from="1608634251487" duration="740000" />
+      <workItem from="1608636842721" duration="242000" />
+      <workItem from="1608637438625" duration="4114000" />
+      <workItem from="1608805118188" duration="1287000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608805961615">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="463" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1608805961615" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608202895210">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1608202895210" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1608445419323">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608445419323" />
+    <state x="297" y="162" key="run.anything.popup" timestamp="1608363906410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="162" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1608363906410" />
+  </component>
+</project>

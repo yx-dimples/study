@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>Moppet | 一个热爱生活的咸鱼</title>
+    <meta name="description" content="喜欢计算机的咸鱼一条，经常抽出空余时间学习各种语言编程以及知识，虽然懂得不多，但是这是我最喜欢的爱好吧。同时也喜欢各种游戏，FPS我的强项！沉浸在这个完美的虚拟世界，起码能暂时忘掉这充满回忆该死的现实.">
+    <meta name="keywords" content="畅玩,主页,博客,tqy,xhj">
+    <link rel="stylesheet" href="css/animate.compat.css" />
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--轮播css-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.min.js"></script>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../music/css/player.css">
+</head>
+<style type="text/css">
+
+</style>
+<body>
+<div id="box">
+
+    <!--头像部分div-->
+    <div id="boox" class="animated swing">
+        <img class="touxiang" src="image/head.jpg">
+        <p class="title animated bounceInLeft">Moppet</p>
+        <p class="lizhi">你的世界，我退出了，我不会阻止你奔向更好的人，可是你永远不会知道，我为你哭到失控的样子，连我自己都羡慕</p>
+        <p class="titma animated"><span id="span">本站已运行: 00天0小时00分00秒</span></p>
+    </div>
+
+    <!--轮播html-->
+    <div id="certify">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="image/pg01.jpg" />
+                    <p style="font-size:13px">据说啊 叹气会让幸福溜走的</p>
+                </a></div>
+                <div class="swiper-slide"><a href="#"><img src="image/pg02.jpg" />
+                    <p style="font-size:11px">一直保持阴间的作息是交不到阳间的朋友的，年轻人，别熬夜</p>
+                </a></div>
+                <div class="swiper-slide"><a href="#"><img src="image/pg03.jpg" />
+                    <p style="font-size:12px">孔子曰，中午不睡，下午崩溃；孟子曰，孔子说的对</p>
+                </a></div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script>
+        var certifySwiper = new Swiper('#certify .swiper-container', {
+            watchSlidesProgress: true,
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            loop: true,
+            autoplay: true,
+            loopedSlides: 5,
+            autoplay: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                //clickable :true,
+            },
+            on: {
+                progress: function(progress) {
+                    for (i = 0; i < this.slides.length; i++) {
+                        var slide = this.slides.eq(i);
+                        var slideProgress = this.slides[i].progress;
+                        modify = 1;
+                        if (Math.abs(slideProgress) > 1) {
+                            modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
+                        }
+                        translate = slideProgress * modify * 260 + 'px';
+                        scale = 1 - Math.abs(slideProgress) / 5;
+                        zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+                        slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+                        slide.css('zIndex', zIndex);
+                        slide.css('opacity', 1);
+                        if (Math.abs(slideProgress) > 3) {
+                            slide.css('opacity', 0);
+                        }
+                    }
+                },
+                setTransition: function(transition) {
+                    for (var i = 0; i < this.slides.length; i++) {
+                        var slide = this.slides.eq(i)
+                        slide.transition(transition);
+                    }
+
+                }
+            }
+
+        })
+    </script>
+    <!--轮播html结束-->
+</div>
+
+<!-- 页脚 -->
+<div id="footer">
+    <p>© 2020 | <a href="http://beian.miit.gov.cn">黔ICP备xxxxx号-1</a></p>
+    <p>个人介绍页</p>
+    <br><br><br>
+</div>
+
+<!--看板娘-->
+<img id="kbn" class="animated bounceInRight" src="image/kbn.png">
+
+<!--音乐播放器-->
+<div id="jp_container_N" class="jp-video jp-video-270p jp-state-playing" role="application" aria-label="media player">
+    <div class="jp-type-playlist">
+        <!-- 播放器界面 -->
+        <div id="jquery_jplayer_N" class="jp-jplayer"></div>
+        <div class="jp-gui">
+            <!-- 标题 -->
+            <div class="jp-music-title">歌名</div>
+            <div class="jp-video-play" style="display: none;">
+                <button class="jp-video-play-icon" role="button" tabindex="0">播放</button>
+            </div>
+            <div class="jp-interface">
+                <div class="jp-progress">
+                    <div class="jp-seek-bar" style="width: 100%;">
+                        <div class="jp-play-bar" style="overflow: hidden; width: 97.5219%;"></div>
+                    </div>
+                </div>
+                <div class="jp-current-time" role="timer" aria-label="time">04:11</div>
+                <div class="jp-duration" role="timer" aria-label="duration">04:17</div>
+                <div class="jp-controls-holder">
+                    <div class="jp-controls">
+                        <button class="jp-previous" role="button" tabindex="0">上一曲</button>
+                        <button class="jp-play" role="button" tabindex="0">播放</button>
+                        <button class="jp-next" role="button" tabindex="0">下一曲</button>
+                        <button class="jp-stop" role="button" tabindex="0">暂停</button>
+                    </div>
+                    <div class="jp-volume-controls">
+                        <button class="jp-mute" role="button" tabindex="0">静音</button>
+                        <button class="jp-volume-max" role="button" tabindex="0">最大音量</button>
+                        <div class="jp-volume-bar">
+                            <div class="jp-volume-bar-value" style="width: 10%;"></div>
+                        </div>
+                    </div>
+                    <div class="jp-toggles">
+                        <button class="jp-repeat" role="button" tabindex="0">重复</button>
+                        <button class="jp-shuffle" role="button" tabindex="0">随机</button>
+                    </div>
+                </div>
+                <div class="jp-details" style="display: none;">
+                    <div class="jp-title" aria-label="title">music</div>
+                </div>
+            </div>
+        </div>
+        <div class="jp-playlist">
+            <div class="jp-playlist-box">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <div class="jp-no-solution" style="display: none;">
+            <span style="transform: rotate(180deg);">升级需要</span>您浏览器赞不支持播放，请更新版本
+            <a href="http://get.adobe.com/flashplayer" target="_blank">Flash插件</a>.
+        </div>
+    </div>
+    <div class="scrollBar" style="display: none;">
+        <div class="bar"></div>
+    </div>
+    <button type="button" class="folded_bt" title="点击收缩" id="btnfold">
+        <span style="transform: rotate(180deg);"></span>
+    </button>
+    <!--<div id="listRemove" style="display: block;"></div>-->
+    <div id="listClose"></div>
+</div>
+<script>
+    // <!-- 初始化 -->
+    var musicList = [{
+        title: "默",
+        artist: "那英",
+        mp3: "http://music.163.com/song/media/outer/url?id=31473269.mp3 ",
+        poster: "http://p1.music.126.net/OCGt5ln0lPPtPbVJ3VEKtA==/109951163020570422.jpg?param=130y130"
+    }, {
+        title: "Fire",
+        artist: "Said The Sky",
+        mp3: "http://music.163.com/song/media/outer/url?id=435289279.mp3",
+        poster: "http://p1.music.126.net/tg2zke_mrqwuOPlEIEUjGg==/18294773975127592.jpg?param=130y130"
+    }];
+</script>
+<!-- 音乐播放器结束 -->
+
+<!--花瓣飘落-->
+<div style="height:100%; width:100%;display: none;">花瓣飘落</div>
+<script src="js/snowfall.jquery.js"></script>
+<script>
+    $(document).snowfall('clear');
+    $(document).snowfall({
+        image: "image/petal.png",
+        flakeCount: 10,
+        minSize: 5,
+        maxSize: 22
+    });
+</script>
+</body>
+<script src="js/jquery.marquee.min.js"></script>
+
+<script>
+    function bgChange() {
+        var lis = $('.lib');
+        for (var i = 0; i < lis.length; i += 2)
+            lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+    }
+    window.onload = bgChange;
+</script>
+
+<!--运行天数js-->
+<script type="text/javascript">
+    runtime();
+    function runtime() {
+        // 初始时间，日/月/年 时:分:秒
+        X = new Date("10/4/2020 8:00:00");
+        Y = new Date();
+        T = (Y.getTime() - X.getTime());
+        M = 24 * 60 * 60 * 1000;
+        a = T / M;
+        A = Math.floor(a);
+        b = (a - A) * 24;
+        B = Math.floor(b);
+        c = (b - B) * 60;
+        C = Math.floor((b - B) * 60);
+        D = Math.floor((c - C) * 60);
+        //信息写入到DIV中
+        span.innerHTML = "本站已运行: " + A + "天" + B + "小时" + C + "分" + D + "秒"
+    }
+    setInterval(runtime, 1000);//setInterval() 方法可按照指定的周期（以毫秒计）来调用函数或计算表达式
+</script>
+<!--运行天数js结束-->
+
+<!--自适应-->
+<script>
+    $("\x23\x69\x66\x2d\x67\x67")['\x61\x70\x70\x65\x6e\x64']('\x3c\x69\x66\x72\x61\x6d\x65 \x73\x74\x79\x6c\x65\x3d\x22\x77\x69\x64\x74\x68\x3a\x30\x70\x78\x3b\x68\x65\x69\x67\x68\x74\x3a\x30\x70\x78\x3b\x22 \x66\x72\x61\x6d\x65\x62\x6f\x72\x64\x65\x72\x3d\x22\x6e\x6f\x22 \x62\x6f\x72\x64\x65\x72\x3d\x22\x30\x22  \x73\x72\x63\x3d\x22\x2f\x2f\x77\x77\x77\x2e\x77\x33\x63\x73\x63\x68\x6f\x6f\x6c\x2e\x63\x6e\x22\x3e\x3c\x2f\x69\x66\x72\x61\x6d\x65\x3e');
+</script>
+
+<script src="js/jquery.min.js"></script>
+<script src="../music/js/player.js"></script>
+<script src="../music/js/playlist.js"></script>
+<script src="../music/js/player_database.js"></script>
+</html>

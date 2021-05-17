@@ -1,0 +1,21 @@
+*{margin:0;padding:0;box-sizing:border-box;
+    cursor: url("../../Kitty-Arrow.cur"),auto;}
+.token.selector{color:#000}
+.token.property{color:#000}
+.token.punctuation{color:#000}
+#code{overflow:auto}
+#box{display:flex;justify-content:center;align-items:center;height:100vh}
+@keyframes breath{
+    0%,100%{
+        box-shadow:0 0 4px 3px transparent,0 0 0 0 #333,0 0 0 0 transparent
+    }
+    25%{
+        box-shadow:0 0 4px 3px #00ff10,0 0 6px 5px rgba(0,255,27,.3),0 0 6px 7px #00ff23
+    }
+    50%{
+        box-shadow:0 0 4px 3px transparent,0 0 0 0 #333,0 0 0 0 transparent
+    }
+    75%{
+        box-shadow:0 0 4px 3px #00ff10,0 0 6px 5px #333,0 0 6px 7px #00ff23
+    }
+}

@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+B:\宜宾学院学习\软件设计与体系结构\源码\.metadata\.plugins\org.eclipse.jdt.core
+1330026432.index
+2465228653.index
+3508666979.index
+2787455733.index
+943826774.index

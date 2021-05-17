@@ -1,0 +1,51 @@
+/**
+ * 
+ * @author Moppet
+ *
+ */
+/*
+ * 产品抽象接口
+ */
+interface Component {
+	// 产品对应的方法：价格
+	Double opration();
+}
+
+class ConcreateComponent implements Component {
+
+	@Override
+	public Double opration() {
+		// TODO Auto-generated method stub
+		return 30.00;
+	}
+	
+}
+
+abstract class Decorator implements Component{
+	protected Component component;
+}
+
+class ConcreateDecorator extends Decorator {
+	
+	
+	
+	public ConcreateDecorator(Component component) {
+		this.component = component;
+	}
+
+	@Override
+	public Double opration() {
+		// TODO Auto-generated method stub
+		return component.opration() + 10.00;
+	}
+	
+}
+
+public class DecoratorTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

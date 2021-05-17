@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.test.adapter.AndroidPhone"/>
+<fullyQualifiedTypeName name="com.test.adapter.IOSPhone"/>
+<fullyQualifiedTypeName name="com.test.adapter.XiaomiPhone"/>
+<fullyQualifiedTypeName name="com.test.adapter.PhoneConnector"/>
+<fullyQualifiedTypeName name="com.test.adapter.ApplePhone"/>
+<fullyQualifiedTypeName name="com.test.adapter.PhoneConnectorAdapter"/>
+<fullyQualifiedTypeName name="com.test.adapter.AndroidConnector"/>
+<fullyQualifiedTypeName name="com.test.adapter.phone.AndroidPhone"/>
+<fullyQualifiedTypeName name="com.test.adapter.phone.IOSPhone"/>
+<fullyQualifiedTypeName name="com.test.adapter.phone.iml.ApplePhone"/>
+<fullyQualifiedTypeName name="com.test.mode.department.Library"/>
+<fullyQualifiedTypeName name="com.test.mode.department.Office"/>
+<fullyQualifiedTypeName name="com.test.mode.department.PublicSecurityDepartment"/>
+<fullyQualifiedTypeName name="com.test.mode.department.LogisticsOffice"/>
+<fullyQualifiedTypeName name="com.test.mode.graduate.Graduate"/>
+<fullyQualifiedTypeName name="com.test.mode.agency.GraduationAgency"/>
+<fullyQualifiedTypeName name="com.test.adapter.connector.PhoneConnector"/>
+<fullyQualifiedTypeName name="com.test.adapter.connector.PhoneConnectorAdapter"/>
+<fullyQualifiedTypeName name="com.test.adapter.connector.AndroidConnector"/>
+<fullyQualifiedTypeName name="com.test.adapter.phone.iml.XiaomiPhone"/>
+<fullyQualifiedTypeName name="com.test.adapter.connector.IOSConnector"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="Component"/>
+<fullyQualifiedTypeName name="ConcreateComponent"/>
+<fullyQualifiedTypeName name="ConcreateDecorator"/>
+<fullyQualifiedTypeName name="Bread"/>
+<fullyQualifiedTypeName name="JapaneseBread"/>
+<fullyQualifiedTypeName name="AmericanBread"/>
+<fullyQualifiedTypeName name="BreadDecorator"/>
+<fullyQualifiedTypeName name="MilkCoconut"/>
+<fullyQualifiedTypeName name="Cream"/>
+<fullyQualifiedTypeName name="Sesame"/>
+<fullyQualifiedTypeName name="FrenchBread"/>
+<fullyQualifiedTypeName name="Phone"/>
+<fullyQualifiedTypeName name="PhoneDecorator"/>
+<fullyQualifiedTypeName name="SimplePhone"/>
+<fullyQualifiedTypeName name="JarPhone"/>
+<fullyQualifiedTypeName name="ComplexPhone"/>
+</qualifiedTypeNameHistroy>
