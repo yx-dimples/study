@@ -22,7 +22,6 @@
 <fullyQualifiedTypeName name="com.test.adapter.phone.iml.XiaomiPhone"/>
 <fullyQualifiedTypeName name="com.test.adapter.connector.IOSConnector"/>
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
-<fullyQualifiedTypeName name="Component"/>
 <fullyQualifiedTypeName name="ConcreateComponent"/>
 <fullyQualifiedTypeName name="ConcreateDecorator"/>
 <fullyQualifiedTypeName name="Bread"/>
@@ -38,4 +37,20 @@
 <fullyQualifiedTypeName name="SimplePhone"/>
 <fullyQualifiedTypeName name="JarPhone"/>
 <fullyQualifiedTypeName name="ComplexPhone"/>
+<fullyQualifiedTypeName name="javax.xml.stream.events.Comment"/>
+<fullyQualifiedTypeName name="Component"/>
+<fullyQualifiedTypeName name="Composite"/>
+<fullyQualifiedTypeName name="Leaf"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="DessertDrinksIterator"/>
+<fullyQualifiedTypeName name="Iterator"/>
+<fullyQualifiedTypeName name="DrypanIterator"/>
+<fullyQualifiedTypeName name="DryPan"/>
+<fullyQualifiedTypeName name="HotPot"/>
 </qualifiedTypeNameHistroy>
