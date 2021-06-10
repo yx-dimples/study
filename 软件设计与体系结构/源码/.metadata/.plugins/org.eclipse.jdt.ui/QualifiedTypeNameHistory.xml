@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.test.adapter.AndroidPhone"/>
-<fullyQualifiedTypeName name="com.test.adapter.IOSPhone"/>
-<fullyQualifiedTypeName name="com.test.adapter.XiaomiPhone"/>
-<fullyQualifiedTypeName name="com.test.adapter.PhoneConnector"/>
-<fullyQualifiedTypeName name="com.test.adapter.ApplePhone"/>
-<fullyQualifiedTypeName name="com.test.adapter.PhoneConnectorAdapter"/>
-<fullyQualifiedTypeName name="com.test.adapter.AndroidConnector"/>
-<fullyQualifiedTypeName name="com.test.adapter.phone.AndroidPhone"/>
-<fullyQualifiedTypeName name="com.test.adapter.phone.IOSPhone"/>
-<fullyQualifiedTypeName name="com.test.adapter.phone.iml.ApplePhone"/>
-<fullyQualifiedTypeName name="com.test.mode.department.Library"/>
-<fullyQualifiedTypeName name="com.test.mode.department.Office"/>
-<fullyQualifiedTypeName name="com.test.mode.department.PublicSecurityDepartment"/>
-<fullyQualifiedTypeName name="com.test.mode.department.LogisticsOffice"/>
-<fullyQualifiedTypeName name="com.test.mode.graduate.Graduate"/>
 <fullyQualifiedTypeName name="com.test.mode.agency.GraduationAgency"/>
 <fullyQualifiedTypeName name="com.test.adapter.connector.PhoneConnector"/>
 <fullyQualifiedTypeName name="com.test.adapter.connector.PhoneConnectorAdapter"/>
@@ -42,9 +27,7 @@
 <fullyQualifiedTypeName name="Composite"/>
 <fullyQualifiedTypeName name="Leaf"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.UUID"/>
@@ -53,4 +36,28 @@
 <fullyQualifiedTypeName name="DrypanIterator"/>
 <fullyQualifiedTypeName name="DryPan"/>
 <fullyQualifiedTypeName name="HotPot"/>
+<fullyQualifiedTypeName name="cn.entity.impl.Eat"/>
+<fullyQualifiedTypeName name="cn.entity.impl.ch.ChickenBean"/>
+<fullyQualifiedTypeName name="cn.entity.impl.ch.ColaBean"/>
+<fullyQualifiedTypeName name="cn.entity.impl.ch.ChipsBean"/>
+<fullyQualifiedTypeName name="cn.entity.impl.Drink"/>
+<fullyQualifiedTypeName name="cn.entity.impl.ch.JuiceBean"/>
+<fullyQualifiedTypeName name="cn.entity.impl.ch.CafeBean"/>
+<fullyQualifiedTypeName name="cn.entity.impl.ch.HamBean"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="cn.entity.Food"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.work.base.impl.Basic_SetmealA"/>
+<fullyQualifiedTypeName name="com.work.base.impl.Basic_SetmealB"/>
+<fullyQualifiedTypeName name="com.work.base.impl.Normal_SetmealA"/>
+<fullyQualifiedTypeName name="com.work.base.impl.Normal_SetmealB"/>
+<fullyQualifiedTypeName name="com.work.base.impl.Basic_Setmeal"/>
+<fullyQualifiedTypeName name="com.work.base.impl.Normal_Setmeal"/>
+<fullyQualifiedTypeName name="com.work.factory.Factory"/>
+<fullyQualifiedTypeName name="com.work.customer.Customer"/>
+<fullyQualifiedTypeName name="com.work.factory.impl.KFC_Factory"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
