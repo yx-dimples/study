@@ -1,19 +1,14 @@
 content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.test.mode.graduate.Graduate"><rhs name\="com.test.mode.graduate.Graduate"/></lhs><lhs name\="com.test.adapter.connector.PhoneConnector"><rhs name\="com.test.adapter.connector.PhoneConnectorAdapter"/><rhs name\="com.test.adapter.connector.AndroidConnector"/></lhs><lhs name\="com.test.adapter.phone.AndroidPhone"><rhs name\="com.test.adapter.phone.iml.XiaomiPhone"/></lhs><lhs name\="com.test.adapter.phone.iml.XiaomiPhone"><rhs name\="com.test.adapter.phone.iml.XiaomiPhone"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="com.moppet.entity.Entity"><rhs name\="com.moppet.entity.Entity"/></lhs><lhs name\="java.lang.Exception"><rhs name\="java.lang.InterruptedException"/></lhs><lhs name\="java.lang.Throwable"><rhs name\="java.lang.InterruptedException"/></lhs><lhs name\="java.lang.InterruptedException"><rhs name\="java.lang.InterruptedException"/></lhs><lhs name\="java.lang.Runnable"><rhs name\="com.moppet.wait.Wait"/></lhs><lhs name\="com.moppet.wait.Wait"><rhs name\="com.moppet.wait.Wait"/></lhs><lhs name\="com.moppet.demodel.component.MedicalRecord"><rhs name\="com.moppet.demodel.concretcomponent.BasicMedicalExpeness"/><rhs name\="com.moppet.demodel.decorator.impl.ChinesePatentDrug"/></lhs><lhs name\="com.moppet.demodel.decorator.OtherCost"><rhs name\="com.moppet.demodel.decorator.impl.ChinesePatentDrug"/><rhs name\="com.moppet.demodel.decorator.impl.RoutineBloodTest"/><rhs name\="com.moppet.demodel.decorator.impl.Register"/></lhs><lhs name\="com.moppet.demodel.component.Case"><rhs name\="com.moppet.demodel.concretcomponent.BasicMedicalExpeness"/><rhs name\="com.moppet.demodel.decorator.impl.RoutineBloodTest"/><rhs name\="com.moppet.demodel.decorator.OtherCost"/><rhs name\="com.moppet.demodel.decorator.impl.Register"/></lhs></history>
 content_assist_number_of_computers=24
-content_assist_parameters_foreground=255,255,255
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
-org.eclipse.jdt.internal.ui.navigator.layout=2
-org.eclipse.jdt.internal.ui.navigator.librariesnode=true
-org.eclipse.jdt.ui.formatterprofiles.version=14
+org.eclipse.jdt.ui.formatterprofiles.version=21
 org.eclipse.jdt.ui.text.code_templates_migrated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.text.templates_migrated=true
-semanticHighlighting.field.enabled=false
-sourceHoverBackgroundColor=255,255,225
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

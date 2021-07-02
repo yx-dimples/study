@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<!-- 注册JDBC的驱动 -->
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<!-- 数据库地址 -->
+		<property name="jdbcUrl">
+			jdbc:mysql://localhost:3306/g_design?useUnicode=true&amp;characterEncoding=UTF-8
+     	</property>
+     	<!-- 数据库用户名 -->
+		<property name="user">root</property>
+		<!-- 数据库密码 -->
+		<property name="password">123456</property>
+		<!-- 连接池中保留的最大连接数 -->
+		<property name="maxPoolSize" value="30" /> 
+		<!-- 连接池中保留的最小连接数 -->
+		<property name="minPoolSize" value="10" /> 
+		<!-- 最大空闲时间，60秒内未使用则连接被丢弃 -->
+		<property name="maxIdleTime" value="60" /> 
+		<!-- 最多可以创建Statements对象的数量 -->
+		<property name="maxStatements" value="0" /> 
+		<!-- 连接池初始化时创建的连接数 -->
+		<property name="initialPoolSize" value="10" /> 
+		<!-- 检查所有连接池中的空闲连接 -->
+		<property name="idleConnectionTestPeriod" value="1800" />
+	</default-config> 
+</c3p0-config>

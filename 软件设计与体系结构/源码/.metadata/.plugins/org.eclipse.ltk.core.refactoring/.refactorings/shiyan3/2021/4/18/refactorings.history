@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move package &apos;com.test.adapter&apos; to &apos;shiyan4/src&apos;&#x0D;&#x0A;- Original project: &apos;shiyan3&apos;&#x0D;&#x0A;- Destination element: &apos;shiyan4/src&apos;&#x0D;&#x0A;- Original element: &apos;shiyan3/src/com.test.adapter&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=shiyan4/src" element1="/src&lt;com.test.adapter" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1619686748461" version="1.0"/>
-</session>

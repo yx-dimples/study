@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>添加教师</title>
+ <script type="text/javascript" src=".//layui/jquery.min.js"></script>
+</head>
+<body>
+	<h2>添加教师</h2>
+	<label>工号：</label>
+    <input type="text" id="teacherId">
+    <br><br>
+
+    <label>姓名：</label>
+    <input type="text" id="tname">
+    <br><br>
+    
+    <label>性别：</label>
+    <input type="text" id="tsex">
+    <br><br>
+
+    <label>年龄：</label>
+    <input type="text" id="tage">
+    <br><br>
+
+    <label>部门：</label>
+    <input type="text" id="tdept">
+    <br><br>
+
+    <label>电话：</label>
+    <input type="text" id="tel">
+    <br><br>
+    
+    <label>Q&nbsp;Q：</label>
+    <input type="text" id="qQ">
+    <br><br>
+    
+    <label>昵称：</label>
+    <input type="text" id="professional">
+    <br><br>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" id="submit" onclick="submitTeacher()" value="提交" />
+    
+    
+    <script>
+    	function submitTeacher() {
+    		/*
+    		* val() 方法返回或设置被选元素的值。
+    		* 元素的值是通过 value 属性设置的。该方法大多用于 input 元素。
+    		* 如果该方法未设置参数，则返回被选元素的当前值。
+    		*/
+			var teacherId = $('#teacherId').val()
+			var tname = $('#tname').val()
+			var tage = $('#tage').val()
+			var tsex = $('#tsex').val()
+			var tdept = $('#tdept').val()
+			var password = $('#password').val()
+			var tel = $('#tel').val()
+			var qQ = $('#qQ').val()
+			var professional = $('#professional').val()
+			/*
+			* JQuery 发送ajax 分为5步走 记住即可
+			* 1 传输的 url 也就是所谓的数据往哪个地址拿数据
+			* 2 type 请求的类型 比如 有post put get delete
+			* 3 data data 顾名思义也就是所谓的要传输的数据给后端 如果没有可以不写
+			* 4 dataType:'json' 如果Php端声明了json返回，那么js端可以不用写dataType="json";如果Php端没有声明json返回，那么js端必须写dataType="json";
+			* 5 success 发送数据之后成功的回调函数
+			*/
+			$.ajax({
+		        url: 'addTeacher',  // 地址
+		        type: 'psot',  //POST - 向指定的资源提交要处理的数据   GET - 从指定的资源请求数据
+		      /*   contentType: 'application/json;charset="utf-8"',
+		        dataType: 'text', */
+		        data: {   // 要传输的数据给后端
+		        	'teacherId': teacherId,
+		            'tname': tname,
+		            'tage': tage,
+		            'tsex': tsex,
+		            'tdept': tdept,
+		            'password': password,
+		            'tel': tel,
+		            'qQ': qQ,
+		            'professional': professional
+		        },
+		        success: function (res){
+		          	alert('添加成功')
+		        },
+		        error: function (res){
+		        	alert('添加失败，该教师已经存在')
+		        }
+		      })
+		}
+    </script>
+</body>
+</html>
