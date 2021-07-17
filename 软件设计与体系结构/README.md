@@ -1,5 +1,4 @@
 ### 1、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/final">期末作业</a><br>
-现假设要实现一个医院系统的部分功能<br>
 ### 2、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/shiyan2">实验2</a><br>
 ### 3、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/shiyan3">实验3</a><br>
 ### 4、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/shiyan4">实验4</a><br>
