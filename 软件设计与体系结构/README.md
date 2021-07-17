@@ -7,5 +7,5 @@
 
   医院的部门结构往往是一个树状结构，而医生属于某个科室，例如：<br>
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210717104333649.png" alt="image-20210717104333649" style="zoom:50%;" />
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0717/104813_d41ece29_8876547.png "屏幕截图.png")
   请用组合模式，实现医院结构，并能将这个组合模式应用到病人挂号处，方便的得到某种诊疗科目的所有医生，供病人选择。
