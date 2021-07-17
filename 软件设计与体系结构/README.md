@@ -1,11 +1,9 @@
-1、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/final">期末作业</a><br>
+### 1、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/final">期末作业</a><br>
 现假设要实现一个医院系统的部分功能<br>
-
-  病人就诊：病人看病需要经过挂号（选择诊疗科目、选择医生），医生确诊，付费，医生治疗，结束治疗5个步骤，不同的步骤，不同的医院有不同的做法，请用模板方法模式抽象出这个病人就诊步骤，并能方便扩展。<br>
-
-  医生确诊需要开病例单，病人根据病历单的费用进行付费。病历单包括“基础诊疗费“和其它药物或治疗方法的费用，请用装饰器模式实现这个病历单，从而方便扩展不同的药物或治疗方法，并能够得到总费用，便于扩展。<br>
-
-  医院的部门结构往往是一个树状结构，而医生属于某个科室，例如：<br>
-
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0717/104813_d41ece29_8876547.png "屏幕截图.png")
-  请用组合模式，实现医院结构，并能将这个组合模式应用到病人挂号处，方便的得到某种诊疗科目的所有医生，供病人选择。
+### 2、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/shiyan2">实验2</a><br>
+### 3、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/shiyan3">实验3</a><br>
+### 4、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/shiyan4">实验4</a><br>
+### 4.1、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/shiyan4_two">实验4</a><br>
+### 5、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/shiyan5">实验5</a><br>
+### 6、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/shiyan6">实验6</a><br>
+### 7、<a href="https://gitee.com/yx-dimples/study/tree/master/软件设计与体系结构/源码/shiyan7">实验7</a><br>
